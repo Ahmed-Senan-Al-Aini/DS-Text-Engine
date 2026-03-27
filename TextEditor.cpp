@@ -129,18 +129,15 @@ int countChars(TextEditor* editor);
 
 void showStatistics(TextEditor* editor);
 
-int chose();
-int chose_2();
 
-// ---------------------------
-// Functions implementation
-// ---------------------------
 #endif
 // ---------------------------
 // Varible globle declarations
 // ---------------------------
 extern string massage;
 string massage = "";
+int chose();
+int chose_2();
 
 
 // ---------------------------
@@ -317,6 +314,12 @@ int main()
 
     return 0;
 }
+
+
+// ---------------------------
+// Functions implementation
+// ---------------------------
+
 
 // Delete all lines
 void deleteAllLines(LineNode *head)
